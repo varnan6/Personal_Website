@@ -1,11 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Varnan_Rathod</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Varnan Rathod</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="top-panel">
+      <div class="photo">
+        <img src="https://via.placeholder.com/180" alt="Your Photo" />
+      </div>
+      <div class="bio">
+        <h1>Varnan Rathod</h1>
+        <p>
+          <!-- Brief description about yourself and your research interests. This
+          should be approximately two lines of text that gives visitors a quick
+          overview of who you are and what you do. Replace this placeholder text
+          with your actual bio. -->
+        </p>
+      </div>
+    </div>
+
+    <nav class="navigation">
+      <ul class="nav-list">
+        <li data-section="projects">Projects</li>
+        <li data-section="cv">CV</li>
+        <li data-section="publications">Publications</li>
+        <li data-section="experience">Experience</li>
+        <li data-section="education">Education</li>
+        <li data-section="volunteering">Clubs and Volunteering</li>
+      </ul>
+    </nav>
+
+    <div id="projects" class="content-area">
+      <h2>Projects</h2>
+      <div class="project-item">
+        <div class="project-title">
+          <a
+            href="https://github.com/varnan6/Transaction-Anomaly-Detector"
+            target="_blank"
+            >Transaction Anomaly Detector</a
+          >
+        </div>
+        <p class="project-description">
+          <!-- A brief description of your project that explains what it does and why
+          it's interesting. Keep this under 60 words to maintain clarity and
+          readability. -->
+        </p>
+      </div>
+      <div class="project-item">
+        <div class="project-title">
+          <a href="https://github.com/varnan6/Finmate" target="_blank"
+            >Finmate: A personal finance tracking and analysis webapp
+          </a>
+        </div>
+        <p class="project-description">
+          <!-- Another project description that highlights the key features and
+          contributions. Make sure to keep it concise and informative. -->
+        </p>
+      </div>
+      <div class="project-item">
+        <div class="project-title">
+          <a
+            href="https://github.com/varnan6/Social-Media-vs-Productivity-Prediction-Pipeline"
+            target="_blank"
+            >Social Media v/s Productivity Prediction Notebook
+          </a>
+        </div>
+        <p class="project-description">
+          <!-- Another project description that highlights the key features and
+          contributions. Make sure to keep it concise and informative. -->
+        </p>
+      </div>
+    </div>
+
+    <div id="cv" class="content-area">
+      <h2>Curriculum Vitae</h2>
+      <div class="cv-container">
+        <embed src="files/cv.pdf" type="application/pdf" />
+      </div>
+    </div>
+
+    <div id="publications" class="content-area">
+      <h2>Publications</h2>
+      <div class="publication-item">
+        <div class="publication-title">
+          <a target="_blank"
+            >Utilizing Diffusion and DETR Models for Underwater Debris Detection
+            and Recognition</a
+          >
+        </div>
+        <p class="publication-authors">Varnan A. Rathod, Khushboo Khurana</p>
+        <!-- <p class="publication-journal">Journal Name / arXiv:xxxx.xxxxx</p> -->
+      </div>
+    </div>
+
+    <div id="experience" class="content-area">
+      <h2>Research Experience</h2>
+      <div class="experience-item">
+        <div class="position-title">Research Intern (Upcoming)</div>
+        <p class="company-info">
+          Visvesvaraya National Institute of Technology (VNIT), Nagpur, MH
+        </p>
+        <p class="timeline">Dec 2025 - Apr 2026</p>
+        <p class="project-description">
+          Selected under Dr. Praveen Kumar to design and optimize
+          high-efficiency vision models for large-scale live video face
+          detection.
+        </p>
+      </div>
+      <div class="experience-item">
+        <div class="position-title">Undergraduate Researcher</div>
+        <p class="company-info">Ramdeobaba University, Nagpur, MH</p>
+        <p class="timeline">Aug 2025 – Oct 2025</p>
+        <p class="project-description">
+          Compared DiffusionDet and DETR models for underwater debris detection
+          under the guidance of Dr. Khushboo Khurana, achieving SOTA bounding
+          box prediction; manuscript submitted to international conference.
+        </p>
+      </div>
+      <div class="experience-item">
+        <div class="position-title">Research & Development Intern</div>
+        <p class="company-info">Ramdeobaba University, Nagpur, MH</p>
+        <p class="timeline">May 2025 – Jan 2026</p>
+        <p class="project-description">
+          Conducting research under Prof. Manoj Chandak on coal quality
+          prediction using CNNs; applied transfer learning achieving 72%
+          reduction in MAE for GCV prediction on a newer, >90% smaller dataset.
+        </p>
+      </div>
+    </div>
+
+    <div id="education" class="content-area">
+      <h2>Education</h2>
+      <div class="experience-item">
+        <div class="position-title">
+          B.Tech. in Computer Science and Engineering (Honors)
+        </div>
+        <p class="company-info">
+          Shri Ramdeobaba College of Engineering and Management, Nagpur, MH
+        </p>
+        <p class="timeline">Aug 2023 – May 2027</p>
+        <p class="project-description">CGPA: 9.25</p>
+      </div>
+      <div class="experience-item">
+        <div class="position-title">Higher Secondary Certificate (HSC)</div>
+        <p class="company-info">School of Scholars, Wanadongri, Nagpur, MH</p>
+        <p class="timeline">Jul 2021 – May 2023</p>
+        <p class="project-description">92%</p>
+      </div>
+    </div>
+
+    <div id="volunteering" class="content-area">
+      <h2>Achievements & Roles</h2>
+      <div class="experience-item">
+        <div class="position-title">Competitive Programming & Achievements</div>
+        <p class="project-description">
+          • Finalist: Datathon, ARTIMAS'25, PCCOE Pune<br />
+          • Grand Finalist: SIH 2024<br />
+          • Leetcode Rating: 1566 (460+ problems solved)<br />
+          • Codechef Rating: 1496 (2 star, 700+ problems solved)<br />
+          • City Rank 2: CSIR NEERI Science Quiz 2023
+        </p>
+      </div>
+      <div class="experience-item">
+        <div class="position-title">Leadership & Community Roles</div>
+        <p class="project-description">
+          • Executive Tech Member – GFG RBU<br />
+          • Academic Mentor – RBU<br />
+          • Web Dev Member – Technical Club
+        </p>
+      </div>
+    </div>
+
+    <script>
+      const navItems = document.querySelectorAll(".nav-list li");
+      const contentAreas = document.querySelectorAll(".content-area");
+
+      navItems.forEach((item) => {
+        item.addEventListener("click", function () {
+          const targetSection = this.getAttribute("data-section");
+
+          // Remove active class from all nav items
+          navItems.forEach((nav) => nav.classList.remove("active"));
+
+          // Add active class to clicked item
+          this.classList.add("active");
+
+          // Hide all content areas
+          contentAreas.forEach((area) => area.classList.remove("active"));
+
+          // Show target content area
+          document.getElementById(targetSection).classList.add("active");
+        });
+      });
+    </script>
+  </body>
 </html>
