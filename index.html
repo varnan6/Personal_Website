@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,15 +9,14 @@
   <body>
     <div class="top-panel">
       <div class="photo">
-        <img src="https://via.placeholder.com/180" alt="Your Photo" />
+        <img src="files/profile_picture.jpeg" alt="Varnan Rathod" />
       </div>
       <div class="bio">
         <h1>Varnan Rathod</h1>
         <p>
-          <!-- Brief description about yourself and your research interests. This
-          should be approximately two lines of text that gives visitors a quick
-          overview of who you are and what you do. Replace this placeholder text
-          with your actual bio. -->
+          Computer Science undergraduate focused on Computer Vision, Machine
+          Learning, and AI systems for real-world impact. Interested in
+          research-driven engineering and intelligent data applications.
         </p>
       </div>
     </div>
@@ -26,156 +25,167 @@
       <ul class="nav-list">
         <li data-section="education">Education</li>
         <li data-section="experience">Experience</li>
-        <li data-section="projects">Projects</li>
-        <li data-section="cv">CV</li>
         <li data-section="publications">Publications</li>
-        <li data-section="volunteering">Clubs and Volunteering</li>
+        <li data-section="cv">CV</li>
+        <li data-section="contact">Contact</li>
       </ul>
     </nav>
 
+    <!-- PROJECTS (Default Visible) -->
     <div id="projects" class="content-area">
       <h2>Projects</h2>
+
       <div class="project-item">
         <div class="project-title">
           <a
             href="https://github.com/varnan6/Transaction-Anomaly-Detector"
             target="_blank"
-            >Transaction Anomaly Detector</a
           >
-        </div>
-        <p class="project-description">
-          A real-time transaction anomaly detection system using Spring Boot,
-          Kafka, Python (Isolation Forest), and SQL. Accepts transaction via
-          REST API, streams to a Python ML service, and logs predictions with
-          audit-friendly traceability. Designed for risk-aware environments.
-        </p>
-      </div>
-      <div class="project-item">
-        <div class="project-title">
-          <a href="https://github.com/varnan6/Finmate" target="_blank"
-            >Finmate: A personal finance tracking and analysis webapp
+            Transaction Anomaly Detector
           </a>
         </div>
         <p class="project-description">
-          <!-- Another project description that highlights the key features and
-          contributions. Make sure to keep it concise and informative. -->
+          A real-time transaction anomaly detection system using Spring Boot,
+          Kafka, Python (Isolation Forest), and SQL with audit-friendly
+          traceability.
         </p>
       </div>
+
+      <div class="project-item">
+        <div class="project-title">
+          <a href="https://github.com/varnan6/Finmate" target="_blank">
+            Finmate: Personal Finance Tracking Webapp
+          </a>
+        </div>
+        <p class="project-description">
+          A web app for tracking, analyzing, and visualizing personal spending
+          habits with budgeting insights.
+        </p>
+      </div>
+
       <div class="project-item">
         <div class="project-title">
           <a
             href="https://github.com/varnan6/Social-Media-vs-Productivity-Prediction-Pipeline"
             target="_blank"
-            >Social Media v/s Productivity Prediction
+          >
+            Social Media vs Productivity Prediction
           </a>
         </div>
         <p class="project-description">
-          This project explores the relationship between social media habits and
-          actual productivity using a modular machine learning pipeline. It
-          includes data preprocessing, feature engineering, exploratory data
-          analysis, model training (Ridge & Linear Regression), hyperparameter
-          tuning with GridSearchCV, and model explainability using SHAP.
+          ML pipeline exploring links between social media usage and
+          productivity using regression models and SHAP explainability.
         </p>
       </div>
     </div>
 
+    <!-- CV -->
     <div id="cv" class="content-area">
       <h2>Curriculum Vitae</h2>
       <div class="cv-container">
         <embed src="files/cv.pdf" type="application/pdf" />
       </div>
+      <p style="margin-top: 10px">
+        <a href="files/cv.pdf" download>⬇ Download CV</a>
+      </p>
     </div>
 
+    <!-- PUBLICATIONS -->
     <div id="publications" class="content-area">
       <h2>Publications</h2>
       <div class="publication-item">
         <div class="publication-title">
-          <a target="_blank"
-            >Utilizing Diffusion and DETR Models for Underwater Debris Detection
-            and Recognition</a
-          >
+          Utilizing Diffusion and DETR Models for Underwater Debris Detection
+          and Recognition
         </div>
         <p class="publication-authors">Varnan A. Rathod, Khushboo Khurana</p>
-        <!-- <p class="publication-journal">Journal Name / arXiv:xxxx.xxxxx</p> -->
       </div>
     </div>
 
+    <!-- EXPERIENCE -->
     <div id="experience" class="content-area">
       <h2>Experience</h2>
+
       <div class="experience-item">
-        <div class="position-title">Research Intern (Upcoming)</div>
-        <p class="company-info">
-          Visvesvaraya National Institute of Technology (VNIT), Nagpur, MH
-        </p>
+        <div class="position-title">Research Intern</div>
+        <p class="company-info">VNIT Nagpur</p>
         <p class="timeline">Dec 2025 - Apr 2026</p>
         <p class="project-description">
-          Selected under Dr. Praveen Kumar to design and optimize
-          high-efficiency vision models for large-scale live video face
-          detection.
+          Designing high-efficiency vision models for large-scale live video
+          face detection.
         </p>
       </div>
+
       <div class="experience-item">
         <div class="position-title">Undergraduate Researcher</div>
-        <p class="company-info">Ramdeobaba University, Nagpur, MH</p>
+        <p class="company-info">Ramdeobaba University</p>
         <p class="timeline">Aug 2025 – Oct 2025</p>
         <p class="project-description">
-          Compared DiffusionDet and DETR models for underwater debris detection
-          under the guidance of Dr. Khushboo Khurana, achieving SOTA bounding
-          box prediction; manuscript submitted to international conference.
+          Compared DiffusionDet and DETR for underwater debris detection;
+          manuscript submitted.
         </p>
       </div>
+
       <div class="experience-item">
         <div class="position-title">Research & Development Intern</div>
-        <p class="company-info">Ramdeobaba University, Nagpur, MH</p>
+        <p class="company-info">Ramdeobaba University</p>
         <p class="timeline">May 2025 – Jan 2026</p>
         <p class="project-description">
-          Conducting research under Prof. Manoj Chandak and Dr. Abhijeet
-          Raipurkar on coal quality prediction using CNNs. Applied transfer
-          learning achieving 72% reduction in MAE for GCV prediction on a newer,
-          >90% smaller dataset.
+          Coal quality prediction using CNN transfer learning with 72% MAE
+          reduction.
         </p>
       </div>
     </div>
 
+    <!-- EDUCATION -->
     <div id="education" class="content-area">
       <h2>Education</h2>
       <div class="experience-item">
-        <div class="position-title">
-          B.Tech. in Computer Science and Engineering (Honors)
-        </div>
+        <div class="position-title">B.Tech. CSE (Honors)</div>
         <p class="company-info">
-          Shri Ramdeobaba College of Engineering and Management, Nagpur, MH
+          Shri Ramdeobaba College of Engineering and Management
         </p>
-        <p class="timeline">Aug 2023 – May 2027</p>
+        <p class="timeline">2023 – 2027</p>
         <p class="project-description">CGPA: 9.25</p>
-      </div>
-      <div class="experience-item">
-        <div class="position-title">Higher Secondary Certificate (HSC)</div>
-        <p class="company-info">School of Scholars, Wanadongri, Nagpur, MH</p>
-        <p class="timeline">Jul 2021 – May 2023</p>
-        <p class="project-description">92%</p>
       </div>
     </div>
 
+    <!-- ACHIEVEMENTS -->
     <div id="volunteering" class="content-area">
       <h2>Achievements & Roles</h2>
       <div class="experience-item">
-        <div class="position-title">Competitive Programming & Achievements</div>
         <p class="project-description">
-          • Finalist: Datathon, ARTIMAS'25, PCCOE Pune<br />
-          • Grand Finalist: SIH 2024<br />
-          • Leetcode Rating: 1566 (460+ problems solved)<br />
-          • Codechef Rating: 1496 (2 star, 700+ problems solved)<br />
-          • City Rank 2: CSIR NEERI Science Quiz 2023
+          • SIH 2024 Grand Finalist<br />
+          • LeetCode Rating: 1566 (460+ problems)<br />
+          • CodeChef 2★ (700+ problems)<br />
+          • Executive Tech Member – GFG RBU<br />
+          • Academic Mentor – RBU
         </p>
       </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div id="contact" class="content-area">
+      <h2>Contact</h2>
       <div class="experience-item">
-        <div class="position-title">Leadership & Community Roles</div>
-        <p class="project-description">
-          • Executive Tech Member – GFG RBU<br />
-          • Academic Mentor – RBU<br />
-          • Web Dev Member – Technical Club
+        <p>
+          <strong>Email:</strong>
+          <ul>
+            <li>rathodva [at] rknec [dot] edu</li>
+            <li> varnanrathod6 [at] gmail [dot] com</li>
+          </ul>
         </p>
+        <p>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/varnan6" target="_blank"
+            >github.com/varnan6</a
+          >
+        </p>
+        <p>
+          <strong>LinkedIn:</strong>
+          <a href="#" target="_blank">Add your LinkedIn URL</a>
+        </p>
+        <p><strong>Location:</strong> Nagpur, India</p>
       </div>
     </div>
 
@@ -187,16 +197,10 @@
         item.addEventListener("click", function () {
           const targetSection = this.getAttribute("data-section");
 
-          // Remove active class from all nav items
           navItems.forEach((nav) => nav.classList.remove("active"));
-
-          // Add active class to clicked item
           this.classList.add("active");
 
-          // Hide all content areas
           contentAreas.forEach((area) => area.classList.remove("active"));
-
-          // Show target content area
           document.getElementById(targetSection).classList.add("active");
         });
       });
